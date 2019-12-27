@@ -1,0 +1,41 @@
+High Priority
+------------------------------------------------------------------------
+1. Add the rest of the records from the ISO specification
+    c) return record (31)
+    d) return addendum a record (32)
+    e) return addendum b record (33)
+    f) return addendum c record (34)
+    g) return addendum d record (35)
+    h) account totals detail record (40)
+    i) non-hit totals detail record (41)
+    j) box summary record (75)
+    k) routing number summary record (85)
+
+2. Complete the fields in image view analysis record (54)
+
+3. Add field and code to support local resource images so all images are not loaded in memory
+
+4. Add absolute byte positions to images so deferred loading can occur from the file and 
+    therefore images in return files will optionally not be retained in memory
+    
+5. Refactor
+    
+
+
+Medium Priority
+------------------------------------------------------------------------
+1. Implement return file loading 
+
+2. Implement file / bundle / cash letter rebalancing
+
+3. Add validators for more critical fields
+
+
+Low Priority
+------------------------------------------------------------------------
+1. Add a gui for viewing and printing files/items
+
+2. Validators, validators, validators!  
+
+3. Expand xml descriptions of records and then write a code generator to generate java source
+    files from xml descriptions. 

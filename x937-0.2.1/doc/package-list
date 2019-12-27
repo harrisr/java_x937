@@ -1,0 +1,11 @@
+org.cdgsoftware.icl
+org.cdgsoftware.icl.field
+org.cdgsoftware.icl.field.type
+org.cdgsoftware.icl.field.validation
+org.cdgsoftware.icl.reader
+org.cdgsoftware.icl.record
+org.cdgsoftware.icl.test
+org.cdgsoftware.icl.util
+org.cdgsoftware.icl.writer
+org.jpos.iso
+org.jpos.util
